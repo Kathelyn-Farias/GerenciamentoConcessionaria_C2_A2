@@ -70,7 +70,6 @@ public class SplashScreen {
         );
     }
 
-    /** Imprime a splash. Chame no início do Main. */
     public static void show() {
         System.out.println(new SplashScreen().getUpdatedScreen());
     }
