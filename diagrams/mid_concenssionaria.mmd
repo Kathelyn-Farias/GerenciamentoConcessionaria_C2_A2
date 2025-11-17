@@ -1,12 +1,12 @@
 erDiagram
     CLIENTE ||--o{ VENDA : "realiza"
-    VEICULO ||--o| VENDA : "é_vendido_em"
+    VEICULO o|--|| VENDA : "é_vendido_em"
 
 CLIENTE{
     ID_CLIENTE  int PK  "Not Null"
     NOME    String  "Not Null"
     CPF String     "Not Null"
-    TELEFONE    int "Not Null"
+    TELEFONE    String "Not Null"
     EMAIL   String  "Not Null"
 }
 
